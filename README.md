@@ -1,7 +1,4 @@
-# Module-One
-
-
-##A webpage that meets accessibility standards
+# A webpage that meets accessibility standards
 
 A marketing agency wants a codebase that follows accessibility standards so that their site is optimized for search engines
 
@@ -33,6 +30,13 @@ and comments were made to make it clearer to read and comprehend.
 ## View title element; Find it has a concise and descriptive title
 
 * Changed the original title "website" to "Horiseon" to reflect the company.
+
+## Additional added items for accessibility
+
+* Added link to top of page to heart icon on bottom of page
+* Added link to top of page to Search Engine Optimization image
+* Added link to top of page to Online Reputation Management
+* Added link to top of page to Social Media Marketing
 
 # Links to deployed application
 
