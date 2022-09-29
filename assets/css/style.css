@@ -1,0 +1,133 @@
+/*controls the entire webpage area*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*body controls the entire webpage background*/
+body {
+    background-color: #d9dcd6;
+}
+/*header controls the area within the header*/
+header { /*made header a semantic element by deleting the . in front for smother operation*/
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*header h1 controls the text within the header*/
+header h1 { /*made header h1 a semantic element by deleting the . in front for smother operation*/
+    display: inline-block;
+    font-size: 48px;
+}
+/*header h1 span controls the inline text within the header*/
+header h1 span { /*made header h1 a semantic element by deleting the . in front and deleted class .seo for smother operation*/
+    color: #d9dcd6;
+}
+/*header nav controls the navigation links within the header*/
+header nav { /*made header div into a semantic element by deleting the . in front and deleted div and changed into into nav for smother operation*/
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*header nav ul controls not having link styles on the links within the header*/
+header nav ul { /*made header div ul into a semantic element by deleting the . in front and deleted div and changed into into nav for smother operation*/
+    list-style-type: none;
+}
+/*header nav ul li controls the orientation of the links within the header*/
+header nav ul li { /*made header div ul li into a semantic element by deleting the . in front and deleted div and changed into into nav for smother operation*/
+    display: inline-block;
+    margin-left: 25px;
+}
+/*a controls the formatting of the links within the website*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*p controls the formatting of the print within the website*/
+p {
+    font-size: 16px;
+}
+/*.hero controls the header picture within the website*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*.float-left moves contents within the website to the left side of the webpage*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*.float-left moves contents within the website to the right side of the webpage*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*aside controls the aside section on the html document and makes a box to contain the components with the aside class*/
+aside { /*added aside semantic element to control .benefit class for smoother operation*/
+    margin-right: 20px;
+    padding: 39px; /*changed from 20px to fit better in my browser for screenshot for README.md*/
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*aside article controls each idividual article text within aside*/
+aside article { /*added aside article semantic element to control .benefit-lead, .benefit-brand, and .benefit-cost class for smoother operation*/
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*aside article h3 controls each idividual article header within aside*/
+aside article h3 { /*added aside article h3 semantic element to control .benefit-lead h3, .benefit-brand h3, and .benefit-cost h3 class for smoother operation*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*aside article img controls each idividual article image within aside*/
+aside article img { /*added aside article img semantic element to control .benefit-lead img, .benefit-brand img, and .benefit-cost img class for smoother operation*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*.content controls each idividual article/section*/
+.content { /*changed width to 76.7% to fit better in my browser for screenshot for README.md*/
+    width: 76.7%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*.content article controls inside each idividual article/section*/
+.content article { /*added .content article class to control .search-engine-optimization, .online-reputation-management, and .social-media-marketing class for smoother operation*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*.content article img controls inside each idividual article/section image*/
+.content article img { /*added .content article img class to control .search-engine-optimization img, .online-reputation-management img, and .social-media-marketing img class for smoother operation*/
+    max-height: 200px;
+}
+/*.content article h2 controls inside each idividual article/section text*/
+.content article h2 { /*added .content article hr class to control .search-engine-optimization h2, .online-reputation-management h2, and .social-media-marketing h2 class for smoother operation*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*footer controls the footer*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*this is not needed, but left in case of additional footers*/
+footer h4 {
+    font-size: 20px;
+}
