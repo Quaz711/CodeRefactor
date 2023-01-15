@@ -42,7 +42,7 @@ and comments were made to make it clearer to read and comprehend.
 # Links to deployed application
 
 ## GitHub repository for Challenge One
-[Github Repo](https://github.com/Quaz711/Module-One.git)
+[Github Repo](https://github.com/Quaz711/CodeRefactor)
 
 ## Live website for Challenge One
-[Live Website](https://quaz711.github.io/Module-One/)
+[Live Website](https://quaz711.github.io/CodeRefactor/)
