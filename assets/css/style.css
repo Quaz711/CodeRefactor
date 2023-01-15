@@ -20,10 +20,16 @@ header h1 { /*made header h1 a semantic element by deleting the . in front for s
     display: inline-block;
     font-size: 48px;
 }
+
+
+/*******************************/
 /*header h1 span controls the inline text within the header*/
 header h1 span { /*made header h1 a semantic element by deleting the . in front and deleted class .seo for smother operation*/
     color: #d9dcd6;
 }
+/*******************************/
+
+
 /*header nav controls the navigation links within the header*/
 header nav { /*made header div into a semantic element by deleting the . in front and deleted div and changed into into nav for smother operation*/
     padding-top: 15px;
@@ -69,8 +75,13 @@ p {
     float: right;
     margin-left: 25px;
 }
+
+
+
+
+/*******************************/
 /*aside controls the aside section on the html document and makes a box to contain the components with the aside class*/
-aside { /*added aside semantic element to control .benefit class for smoother operation*/
+.sidebar { /*added sidebar semantic element to control .benefit class for smoother operation*/
     margin-right: 20px;
     padding: 39px; /*changed from 20px to fit better in my browser for screenshot for README.md*/
     clear: both;
@@ -80,30 +91,30 @@ aside { /*added aside semantic element to control .benefit class for smoother op
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*aside article controls each idividual article text within aside*/
-aside article { /*added aside article semantic element to control .benefit-lead, .benefit-brand, and .benefit-cost class for smoother operation*/
+/*benefit controls each idividual article text within sidebar*/
+.benefit { /*added aside article semantic element to control .benefit-lead, .benefit-brand, and .benefit-cost class for smoother operation*/
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*aside article h3 controls each idividual article header within aside*/
-aside article h3 { /*added aside article h3 semantic element to control .benefit-lead h3, .benefit-brand h3, and .benefit-cost h3 class for smoother operation*/
+/*benefit h3 controls each idividual article header within aside*/
+.benefit h3 { /*added aside article h3 semantic element to control .benefit-lead h3, .benefit-brand h3, and .benefit-cost h3 class for smoother operation*/
     margin-bottom: 10px;
     text-align: center;
 }
-/*aside article img controls each idividual article image within aside*/
-aside article img { /*added aside article img semantic element to control .benefit-lead img, .benefit-brand img, and .benefit-cost img class for smoother operation*/
+/*benefit img controls each idividual article image within aside*/
+.benefit img { /*added aside article img semantic element to control .benefit-lead img, .benefit-brand img, and .benefit-cost img class for smoother operation*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*.content controls each idividual article/section*/
-.content { /*changed width to 76.7% to fit better in my browser for screenshot for README.md*/
+/*main controls each idividual article/section*/
+main { /*changed width to 76.7% to fit better in my browser for screenshot for README.md*/
     width: 76.7%;
     display: inline-block;
     margin-left: 20px;
 }
 /*.content article controls inside each idividual article/section*/
-.content article { /*added .content article class to control .search-engine-optimization, .online-reputation-management, and .social-media-marketing class for smoother operation*/
+.content { /*added .content class to control .search-engine-optimization, .online-reputation-management, and .social-media-marketing class for smoother operation*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -111,12 +122,12 @@ aside article img { /*added aside article img semantic element to control .benef
     background-color: #0072bb;
     color: #ffffff;
 }
-/*.content article img controls inside each idividual article/section image*/
-.content article img { /*added .content article img class to control .search-engine-optimization img, .online-reputation-management img, and .social-media-marketing img class for smoother operation*/
+/*.content img controls inside each idividual article/section image*/
+.content img { /*added .content article img class to control .search-engine-optimization img, .online-reputation-management img, and .social-media-marketing img class for smoother operation*/
     max-height: 200px;
 }
-/*.content article h2 controls inside each idividual article/section text*/
-.content article h2 { /*added .content article hr class to control .search-engine-optimization h2, .online-reputation-management h2, and .social-media-marketing h2 class for smoother operation*/
+/*.content h2 controls inside each idividual article/section text*/
+.content h2 { /*added .content article hr class to control .search-engine-optimization h2, .online-reputation-management h2, and .social-media-marketing h2 class for smoother operation*/
     margin-bottom: 20px;
     font-size: 36px;
 }
