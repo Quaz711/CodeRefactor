@@ -20,16 +20,10 @@ header h1 { /*made header h1 a semantic element by deleting the . in front for s
     display: inline-block;
     font-size: 48px;
 }
-
-
-/*******************************/
 /*header h1 span controls the inline text within the header*/
 header h1 span { /*made header h1 a semantic element by deleting the . in front and deleted class .seo for smother operation*/
     color: #d9dcd6;
 }
-/*******************************/
-
-
 /*header nav controls the navigation links within the header*/
 header nav { /*made header div into a semantic element by deleting the . in front and deleted div and changed into into nav for smother operation*/
     padding-top: 15px;
@@ -75,12 +69,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-
-
-
-
-/*******************************/
-/*aside controls the aside section on the html document and makes a box to contain the components with the aside class*/
+/*sidebar controls the aside section on the html document and makes a box to contain the components with the aside class*/
 .sidebar { /*added sidebar semantic element to control .benefit class for smoother operation*/
     margin-right: 20px;
     padding: 39px; /*changed from 20px to fit better in my browser for screenshot for README.md*/
