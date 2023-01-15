@@ -22,7 +22,6 @@ and comments were made to make it clearer to read and comprehend.
 
 * Upon first look of the HTML there were no alt attributes, so alt attributes were added describbing the images in the event they did not load.
 
-
 ## View heading attributes; They fall in sequential order
 
 * Link to CSS file was put below the title declaration.
@@ -42,7 +41,6 @@ and comments were made to make it clearer to read and comprehend.
 
 ## GitHub repository for Challenge One
 [Github Repo](https://github.com/Quaz711/Module-One.git)
-
 
 ## Live website for Challenge One
 [Live Website](https://quaz711.github.io/Module-One/)
